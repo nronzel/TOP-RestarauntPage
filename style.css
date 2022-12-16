@@ -32,12 +32,10 @@ body {
 .logo {
   margin-top: 25px;
   font-family: var(--logo-font-fam);
-  color: var(--primary-color)
-}
-
-.logo p {
+  color: var(--primary-color);
   font-size: 72px;
   font-weight: 900;
+  cursor: default;
 }
 
 .tag {
@@ -86,7 +84,6 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 15px;
 }
 
 .hero {
@@ -99,6 +96,7 @@ body {
   font-size: 4rem;
   color: white;
   z-index: 1;
+  font-family: var(--logo-font-fam)
 }
 
 .medium {
