@@ -33,9 +33,10 @@ const header = () => {
   logo.classList.add("logo");
   tag.classList.add("tag");
   nav.classList.add("nav");
-  homeTab.classList.add("nav-item", "tab-active");
-  menuTab.classList.add("nav-item");
-  contactTab.classList.add("nav-item");
+  homeTab.classList.add("nav-item", "tab-active", "home");
+  menuTab.classList.add("nav-item", "menu");
+  contactTab.classList.add("nav-item", "contact");
+
 };
 
 const mainArea = () => {
@@ -57,10 +58,10 @@ const mainArea = () => {
   img.classList.add("hero");
 
   // append to page
-  content.append(mainContent);
   mainContent.append(heroText);
   mainContent.append(img);
   mainContent.append(heroText2);
+  content.append(mainContent);
 };
 
 const footer = () => {
