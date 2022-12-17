@@ -2,5 +2,4 @@
 
 Mock website for "Grandma's Cookies".
 
-Uses tabbed browsing via ES6 modules
-
+Uses tabbed browsing via ES6 modules and Webpack.
