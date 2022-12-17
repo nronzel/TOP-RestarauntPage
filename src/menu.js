@@ -68,4 +68,8 @@ const createMenu = () => {
   content.append(menuGrid)
 }
 
-export { createMenu }
+const clearMenu = () => {
+  menuGrid.innerHTML = ""
+}
+
+export { createMenu, clearMenu }

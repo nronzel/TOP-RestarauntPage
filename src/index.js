@@ -1,5 +1,5 @@
 import { header, mainArea, footer } from "../src/home.js"
-import { createMenu } from "../src/menu.js"
+import { clearMenu, createMenu } from "../src/menu.js"
 
 header()
 mainArea()
@@ -26,6 +26,7 @@ const homePage = () => {
 
 const menuPage = () => {
   content.innerHTML = ""
+  clearMenu()
   header()
   createMenu()
   footer()
