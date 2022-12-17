@@ -36,7 +36,6 @@ const header = () => {
   homeTab.classList.add("nav-item", "tab-active", "home");
   menuTab.classList.add("nav-item", "menu");
   contactTab.classList.add("nav-item", "contact");
-
 };
 
 const mainArea = () => {
