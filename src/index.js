@@ -1,5 +1,6 @@
 import { header, mainArea, footer } from "../src/home.js";
 import { clearMenu, createMenu } from "../src/menu.js";
+import { contactUs } from "../src/contact.js";
 
 // put logic here for tabbed browsing.. event listeners
 
@@ -11,6 +12,7 @@ const addListeners = () => {
   const contact = document.querySelector(".contact");
   home.onclick = homePage;
   menu.onclick = menuPage;
+  contact.onclick = contactPage;
 };
 
 const homePage = () => {
@@ -29,6 +31,14 @@ const menuPage = () => {
   footer();
   addListeners();
 };
+
+const contactPage = () => {
+  content.innerHTML = "";
+  header()
+  contactUs()
+  footer()
+  addListeners()
+}
 
 header();
 mainArea();
