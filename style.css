@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   padding: 0;
   margin: 0;
   font-size: 16px;
@@ -12,8 +14,8 @@
   --primary-color: hsl(174, 39%, 63%);
   --header-bg-color: hsl(174, 3%, 19%);
   --footer-text-color: hsl(174, 6%, 50%);
-  --logo-font-fam: 'Dancing Script', sans-serif;
-  --nav-font-fam: 'Merriweather Sans', sans-serif;
+  --logo-font-fam: "Dancing Script", sans-serif;
+  --nav-font-fam: "Merriweather Sans", sans-serif;
   --nav-border-bottom: 3px solid var(--primary-color);
   --menu-card-border: 1px solid hsl(174, 16%, 84%);
   --menu-card-bg: hsl(172, 100%, 96%);
@@ -81,7 +83,7 @@ body {
 
 .tab-active {
   border-bottom: var(--nav-border-bottom);
-} 
+}
 
 /* Main Content */
 .main-content {
@@ -92,7 +94,7 @@ body {
 
 .hero {
   width: 1100px;
-  opacity: .8;
+  opacity: 0.8;
   border-radius: 5px;
 }
 
@@ -100,7 +102,7 @@ body {
   font-size: 4rem;
   color: white;
   z-index: 1;
-  font-family: var(--logo-font-fam)
+  font-family: var(--logo-font-fam);
 }
 
 .medium {
